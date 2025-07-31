@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            margin: 0;
+            height: 100vh;
+            justify-content: center;
+            background-color: rgb(78, 88, 88);
+        }
+        .box{
+            display: flex;
+            justify-self: center;
+            align-self: center;
+            justify-content: center;
+            align-items: center;
+            width: 400px;
+            height: 400px;
+            border: 2px solid gray;
+            background-color: rgb(80, 101, 101);
+        }
+        input{
+        display: flex;
+        width: 200px;
+        padding: 12px;
+        margin: -2px;
+        background-color: rgb(35, 35, 36);
+        color: white;
+        border-radius: 5px;
+        border: none;
+        }
+        button{
+            width: 100px;
+            height: 40px;
+            border-radius: 5px;
+            border: none;
+            background-color: rgb(37, 80, 37);
+        }
+        h2{
+            display: flex;
+            position: absolute;
+            top: 170px;
+        }
+        button:hover {
+            background-color: aquamarine;
+            font-size: 1.2rem;
+            transition: all 2s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2>fill the form</h2>
+        <form>
+            <input type="text" placeholder="NAME"><br>
+            <input type="text" placeholder="FATHER"><br>
+            <input type="email" placeholder="EMAIL"><br>
+            <input type="password" placeholder="PASSWORD"><br>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</body>
+</html>
